@@ -80,3 +80,27 @@ body {
 #clear:hover {
   background-color: #0e0d0d;
 }
+
+header {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.bi-linkedin,
+.bi-github {
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  transition: 0.8 ease;
+}
+
+.bi-linkedin:hover {
+  color: darkblue;
+}
+
+.bi-github:hover {
+  opacity: 85%;
+}
