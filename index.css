@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Righteous", cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    291deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 239, 255, 1) 54%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#title,
+.container,
+#clear {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+#title {
+  color: black;
+}
+
+.color {
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.color:nth-child(1) {
+  margin-left: 40px;
+}
+
+.container {
+  width: 402px;
+  height: 418px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.pixels {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#clear {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 100px;
+  position: relative;
+  left: 3px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.8s ease;
+  font-size: 20px;
+}
+
+#clear:hover {
+  background-color: #0e0d0d;
+}
